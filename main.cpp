@@ -1,16 +1,15 @@
 #include<iostream>
-
+#include<iomanip>
+//实验
 #include"lab2.h"
 #include"lab3.h"
 #include"lab4.h"
-#include<malloc.h>
-#include<stdio.h>
-#include<math.h>
-#include<iomanip>
-#define E 0.0000000001
+//测试函数
+#include"fx.h"
+
+#define E 0.0000000001//误差
 using namespace std;
-double fx(double x);
-unsigned N;
+
 int main()
 {
 	unsigned N ;
@@ -35,19 +34,7 @@ int main()
 			<< endl;
 		N *= 2;
 	}
-	//cout << scientific << setprecision(12) << Newton_Iteration(fx, 0, 0.000001) << endl;
-	//cout << scientific << setprecision(12) << Newton_Iteration(fx, 1, 0.000001) << endl;
-	//cout << scientific << setprecision(12) << XianJie_Iteration(fx, 0,0.1, 0.000001) << endl;
-	//cout << scientific << setprecision(12) << XianJie_Iteration(fx, 0.5, 1.0, 0.000001) << endl;
 }
-double fx(double x)
-{
-	return sin(x);
-}
-
-
-
-
 
 /*
 	学习笔记：

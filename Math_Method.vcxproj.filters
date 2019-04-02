@@ -27,6 +27,9 @@
     <ClCompile Include="lab2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="fx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lab4.h">
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="lab2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fx.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
