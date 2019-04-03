@@ -3,7 +3,7 @@
 #include<malloc.h>
 #include<iostream>
 using namespace std;
-
+unsigned N;
 double *x_init, *y_init;
 
 double Lagrange(double x, double *X,double *Y, int n )//n为插值节点数
