@@ -11,31 +11,10 @@
 using namespace std;
 
 int main()
-{
-	for (int k = 0,N=1; k <= 12; k++)
-	{
 
-		double I = TiXin(fx, 1, 6, N);
-		double I_precise = cos(1) - cos(6);
-		cout << setw(4) << N << "   " <<
-			scientific << setprecision(12)
-			<< I << "   "
-			//<< I_precise << "   "
-			<< I_precise - I << endl;
-		N *= 2;
-	}
-	cout << endl;
-	for (int k = 0, N = 1; k <= 12; k++)
-	{
-		double I = Simpson(fx, 1, 6, N);
-		double I_precise = cos(1) - cos(6);
-		cout << setw(4) << N << "   " <<
-			scientific << setprecision(12)
-			<< I << "   "
-			//<< I_precise << "   "
-			<< I_precise - I << endl;
-		N *= 2;
-	}
+{
+	Newton_Iteration(fx, 0, E);
+
 }
 
 /*

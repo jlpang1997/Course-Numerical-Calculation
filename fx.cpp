@@ -2,5 +2,5 @@
 #include<math.h>
 double fx(double x)
 {
-	return sin(x);
+	return x*x*x-4*x*x+5*x-2;
 }
