@@ -144,9 +144,6 @@ void main_lab5()
 	fclose(fp);
 
 
-
-
-
 	Jacobi_Iteration(A, b, X,n);
 	for (int i = 0; i < n; i++)
 	{
