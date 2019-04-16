@@ -4,6 +4,7 @@
 #include"lab2.h"
 #include"lab3.h"
 #include"lab4.h"
+#include"lab5.h"
 //²âÊÔº¯Êý
 #include"fx.h"
 
@@ -11,10 +12,9 @@
 using namespace std;
 
 int main()
-
 {
-	Newton_Iteration(fx, 0, E);
-
+	main_lab5();
+	return 0;
 }
 
 /*

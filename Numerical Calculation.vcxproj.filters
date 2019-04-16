@@ -30,6 +30,9 @@
     <ClCompile Include="fx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lab5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lab4.h">
@@ -44,5 +47,11 @@
     <ClInclude Include="fx.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="lab5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test_lab5.txt" />
   </ItemGroup>
 </Project>
